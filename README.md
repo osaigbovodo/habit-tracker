@@ -35,7 +35,7 @@ A smart habit tracking application that uses AI to analyze your patterns, predic
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/osaigbovodo/habit-tracker>
    cd habit-tracker
    ```
 
@@ -64,7 +64,7 @@ habit-tracker/
 ├── script.js           # Main application logic
 ├── storage.js          # Local storage management
 ├── ai-predictor.js     # AI algorithms and insights
-└── README.md           # This file
+└── README.md
 ```
 
 ## 🧠 AI Intelligence
