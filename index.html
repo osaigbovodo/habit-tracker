@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Habit Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1>🧠 AI Habit Tracker</h1>
+            <p>Track habits, get AI insights, and build better routines</p>
+        </header>
+
+        <main>
+            <!-- Add New Habit Section -->
+            <section class="add-habit">
+                <h2>Add New Habit</h2>
+                <form id="habit-form">
+                    <input type="text" id="habit-name" placeholder="Enter habit name" required>
+                    <select id="habit-category">
+                        <option value="health">Health</option>
+                        <option value="productivity">Productivity</option>
+                        <option value="learning">Learning</option>
+                        <option value="social">Social</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <button type="submit">Add Habit</button>
+                </form>
+            </section>
+
+            <!-- Habits List -->
+            <section class="habits-section">
+                <h2>Your Habits</h2>
+                <div id="habits-container"></div>
+            </section>
+
+            <!-- AI Insights -->
+            <section class="ai-insights">
+                <h2>🤖 AI Insights</h2>
+                <div id="insights-container">
+                    <p>Complete some habits to get AI-powered insights!</p>
+                </div>
+            </section>
+
+            <!-- Statistics -->
+            <section class="stats-section">
+                <h2>📊 Statistics</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3 id="total-habits">0</h3>
+                        <p>Total Habits</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 id="completion-rate">0%</h3>
+                        <p>Today's Rate</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 id="streak-count">0</h3>
+                        <p>Best Streak</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="storage.js"></script>
+    <script src="ai-predictor.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
