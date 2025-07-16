@@ -1,4 +1,3 @@
-```markdown
 # Habit Tracker Web App
 
 A simple web-based habit tracker designed to help users build and maintain good habits through daily logging and visual tracking. This application runs entirely on the client-side and stores data locally in the browser using localStorage.
@@ -44,8 +43,6 @@ cd habit-tracker
 
 This project is licensed under the [MIT License](./LICENSE).
 
-```
-
 ---
 
 Let me know if you'd like to:
@@ -55,4 +52,3 @@ Let me know if you'd like to:
 - Modify the contribution guidelines.
 
 Would you also like me to generate the `LICENSE` file using the MIT template?
-```
