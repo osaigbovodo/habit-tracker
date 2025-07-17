@@ -42,13 +42,3 @@ cd habit-tracker
 ## License
 
 This project is licensed under the MIT License.
-
----
-
-Let me know if you'd like to:
-
-- Add screenshots or a demo GIF.
-- Include a `Live Demo` link.
-- Modify the contribution guidelines.
-
-Would you also like me to generate the `LICENSE` file using the MIT template?
